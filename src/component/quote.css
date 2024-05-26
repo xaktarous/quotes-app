@@ -1,0 +1,204 @@
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+ margin: 0;
+ overflow: hidden;
+ font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+.main{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+    
+    
+}
+
+.quote-box{
+    background-color: white;
+    width: min(80vw,500px);
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-text{
+    display: flex;
+    justify-content: center;
+}
+.quotes{
+    margin-top: 20px;
+   
+    font-size: 30px;
+    width:min(70vw,450px);
+    text-align: center;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    width:min(70vw,450px);
+}
+
+
+.new-social{
+    margin-top: 20px;
+    display: flex;
+    width: min(70vw,450px);
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+.social{
+    margin-left: 40px;
+    display: flex;
+    gap:5px;
+}
+.isocial{
+   
+    font-size: 35px;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: white;
+    font-size: 14px;
+}
+.by{
+    color: white;
+}
+
+
+#col0{
+    background-color:skyblue;
+}
+
+#col-0{
+    color: skyblue;
+}
+
+#col1{
+    background-color:aqua;
+}
+
+#col-1{
+    color: aqua;
+}
+#col2{
+    background-color:blue;
+}
+
+#col-2{
+    color: blue;
+}
+
+#col3{
+    background-color: green;
+}
+
+#col-3{
+    color: green;
+}
+
+#col4{
+    background-color:blueviolet;
+}
+
+#col-4{
+    color: blueviolet;
+}
+
+#col5{
+    background-color:brown;
+}
+
+#col-5{
+    color: brown;
+}
+
+#col6{
+    background-color:lightblue;
+}
+
+#col-6{
+    color: lightblue;
+}
+
+#col7{
+    background-color:sandybrown;
+}
+
+#col-7{
+    color: sandybrown;
+}
+
+#col8{
+    background-color:seagreen;
+}
+
+#col-8{
+    color: seagreen;
+}
+
+#col9{
+    background-color:sienna;
+}
+
+#col-9{
+    color: sienna;
+}
+
+#col10{
+    background-color:firebrick;
+}
+
+#col-10{
+    color: firebrick;
+}
+
+
+#col11{
+    background-color:turquoise;
+}
+
+#col-11{
+    color: turquoise;
+}
+
+#col12{
+    background-color:fuchsia;
+}
+
+#col-12{
+    color: fuchsia;
+}
+
+#col13{
+    background-color:darkkhaki;
+}
+
+#col-13{
+    color: darkkhaki;
+}
+
+#col14{
+    background-color:magenta;
+}
+
+#col-14{
+    color: magenta;
+}
+
+#col15{
+    background-color:peru;
+}
+
+#col-15{
+    color: peru;
+}
